@@ -15,7 +15,7 @@ p0 = d[3] ^ d[2] ^ d[0]
 p1 = d[3] ^ d[1] ^ d[0]
 p2 = d[2] ^ d[1] ^ d[0]
 
-hamming_code = [d[0],d[1],d[2],p2,d[0],p1,p0]
+hamming_code = [d[0],d[1],d[2],p2,d[3],p1,p0]
 
 hm_code = []
 for i in range(len(hamming_code)):
